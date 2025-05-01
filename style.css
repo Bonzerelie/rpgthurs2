@@ -54,8 +54,6 @@ body {
 .green-button:disabled {
   background-color: #9E9E9E;
   cursor: not-allowed;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .blue-button {
