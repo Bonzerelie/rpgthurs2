@@ -146,7 +146,7 @@ function toggleDisplay(mode) {
   displayDegreesBtn.classList.toggle('selected', showDegrees);
 
   scaleLabel.textContent = showDegrees
-    ? 'Diatonic notes of the Major Scale (Ionian Mode)'
+    ? 'Diatonic notes of the C Major Scale (Ionian Mode)'
     : 'Diatonic notes of the C Major Scale (Ionian Mode)';
 
   const noteTextOptions = {
