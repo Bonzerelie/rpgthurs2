@@ -156,24 +156,24 @@ function toggleDisplay(mode) {
   5: 'Notes C, D, E, F and G from one octave',
   6: 'Notes C, D, E, F, G and A from one octave',
   7: 'Notes C, D, E, F, G, A and B from one octave',
-  8: 'One Octave (Notes C4 to C5)'
+  8: 'One Octave (Notes C4 to C5) - the C button works for C4&C5!'
 };
 
 const degreeTextOptions = {
-  2: '1st and 2nd scale degrees from one octave',
-  3: '1st, 2nd and 3rd scale degrees from one octave',
-  4: '1st, 2nd, 3rd and 4th scale degrees from one octave',
-  5: '1st, 2nd, 3rd, 4th and 5th scale degrees from one octave',
-  6: '1st, 2nd, 3rd, 4th, 5th and 6th scale degrees from one octave',
-  7: '1st, 2nd, 3rd, 4th, 5th, 6th and 7th scale degrees from one octave',
-  8: '1st, 2nd, 3rd, 4th, 5th, 6th, 7th and 8th(1st) scale degrees from one octave'
+  2: 'Notes C and D from one octave',
+  3: 'Notes C, D and E from one octave',
+  4: 'Notes C, D, E and F from one octave',
+  5: 'Notes C, D, E, F and G from one octave',
+  6: 'Notes C, D, E, F, G and A from one octave',
+  7: 'Notes C, D, E, F, G, A and B from one octave',
+  8: 'One Octave (Notes C4 to C5) - the C button works for C4&C5!'
 };
 
 octaveLabel.textContent = showDegrees
   ? degreeTextOptions[currentMode]
   : noteTextOptions[currentMode];
 
-  playRefBtn.textContent = showDegrees ? 'Play Reference (Tonic)' : 'Play Reference (C - Tonic)';
+  playRefBtn.textContent = showDegrees ? 'Play Reference, C (Tonic)' : 'Play Reference, C (Tonic)';
   promptText.textContent = 'Which note was played?';
 }
 
